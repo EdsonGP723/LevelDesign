@@ -16,7 +16,7 @@
         "_showBrushName": false,
         "_viewList": false,
         "_showTabsInMultipleRows": false,
-        "_iconSize": 64
+        "_iconSize": 81
     },
     "pinManager": {
         "_profileKeys": [
@@ -975,7 +975,7 @@
                     "_layer": 0,
                     "_overwriteBrushProperties": false,
                     "_brushSettings": {
-                        "_id": 638445756461325146,
+                        "_id": -1,
                         "_surfaceDistance": 0.0,
                         "_randomSurfaceDistance": false,
                         "_randomSurfaceDistanceRange": {
@@ -3071,7 +3071,7 @@
                                 "_layer": 0,
                                 "_overwriteBrushProperties": false,
                                 "_brushSettings": {
-                                    "_id": -1,
+                                    "_id": 638447146161338273,
                                     "_surfaceDistance": 0.0,
                                     "_randomSurfaceDistance": false,
                                     "_randomSurfaceDistanceRange": {
@@ -3344,7 +3344,7 @@
                                 "_layer": 0,
                                 "_overwriteBrushProperties": false,
                                 "_brushSettings": {
-                                    "_id": -1,
+                                    "_id": 638447146161338274,
                                     "_surfaceDistance": 0.0,
                                     "_randomSurfaceDistance": false,
                                     "_randomSurfaceDistanceRange": {
@@ -3617,7 +3617,7 @@
                                 "_layer": 0,
                                 "_overwriteBrushProperties": false,
                                 "_brushSettings": {
-                                    "_id": -1,
+                                    "_id": 638447146161348246,
                                     "_surfaceDistance": 0.0,
                                     "_randomSurfaceDistance": false,
                                     "_randomSurfaceDistanceRange": {
@@ -3934,7 +3934,7 @@
                                 "_layer": 0,
                                 "_overwriteBrushProperties": false,
                                 "_brushSettings": {
-                                    "_id": -1,
+                                    "_id": 638447146161348247,
                                     "_surfaceDistance": 0.0,
                                     "_randomSurfaceDistance": false,
                                     "_randomSurfaceDistanceRange": {
@@ -4229,7 +4229,7 @@
                                 "_layer": 0,
                                 "_overwriteBrushProperties": false,
                                 "_brushSettings": {
-                                    "_id": -1,
+                                    "_id": 638447146161348248,
                                     "_surfaceDistance": 0.0,
                                     "_randomSurfaceDistance": false,
                                     "_randomSurfaceDistanceRange": {
@@ -4458,7 +4458,7 @@
                                 "_layer": 0,
                                 "_overwriteBrushProperties": false,
                                 "_brushSettings": {
-                                    "_id": -1,
+                                    "_id": 638447146161348249,
                                     "_surfaceDistance": 0.0,
                                     "_randomSurfaceDistance": false,
                                     "_randomSurfaceDistanceRange": {
@@ -4607,7 +4607,7 @@
                     "_layer": 0,
                     "_overwriteBrushProperties": false,
                     "_brushSettings": {
-                        "_id": 638445756461325145,
+                        "_id": -1,
                         "_surfaceDistance": 0.0,
                         "_randomSurfaceDistance": false,
                         "_randomSurfaceDistanceRange": {
@@ -4915,7 +4915,7 @@
                     "_layer": 0,
                     "_overwriteBrushProperties": false,
                     "_brushSettings": {
-                        "_id": 638445756461325143,
+                        "_id": -1,
                         "_surfaceDistance": 0.0,
                         "_randomSurfaceDistance": false,
                         "_randomSurfaceDistanceRange": {
