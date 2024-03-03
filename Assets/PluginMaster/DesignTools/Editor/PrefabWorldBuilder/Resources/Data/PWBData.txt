@@ -12,7 +12,7 @@
     "_tempCollidersAction": 1,
     "_paletteManager": {
         "_selectedPaletteIdx": 0,
-        "_selectedBrushIdx": 8,
+        "_selectedBrushIdx": -1,
         "_showBrushName": false,
         "_viewList": false,
         "_showTabsInMultipleRows": false,
@@ -4094,13 +4094,13 @@
                             },
                             {
                                 "_id": {
-                                    "_instanceId": -129678,
-                                    "_globalObjId": "GlobalObjectId_V1-2-9fc0d4010bbf28b4594072e72b8655ab-6229247520373792897-1739881565"
+                                    "_instanceId": -191326,
+                                    "_globalObjId": "GlobalObjectId_V1-2-9fc0d4010bbf28b4594072e72b8655ab-4463566038210007903-834181116"
                                 },
                                 "_position": {
-                                    "x": -4.760045528411865,
-                                    "y": 0.01896834373474121,
-                                    "z": -4.5225653648376469
+                                    "x": -4.760046005249023,
+                                    "y": 0.019304275512695314,
+                                    "z": -4.449999809265137
                                 },
                                 "_localRotation": {
                                     "x": 0.0,
@@ -4138,13 +4138,13 @@
                             },
                             {
                                 "_id": {
-                                    "_instanceId": -129722,
-                                    "_globalObjId": "GlobalObjectId_V1-2-9fc0d4010bbf28b4594072e72b8655ab-6229247520373792897-47754035"
+                                    "_instanceId": -185306,
+                                    "_globalObjId": "GlobalObjectId_V1-2-9fc0d4010bbf28b4594072e72b8655ab-4463566038210007903-1905924986"
                                 },
                                 "_position": {
                                     "x": -0.7600457668304443,
-                                    "y": 0.01896834373474121,
-                                    "z": -4.5225653648376469
+                                    "y": 0.019304275512695314,
+                                    "z": -4.459000110626221
                                 },
                                 "_localRotation": {
                                     "x": 0.0,
@@ -4367,12 +4367,12 @@
                             },
                             {
                                 "_id": {
-                                    "_instanceId": -130338,
-                                    "_globalObjId": "GlobalObjectId_V1-2-9fc0d4010bbf28b4594072e72b8655ab-6229247520373792897-1971635184"
+                                    "_instanceId": -215436,
+                                    "_globalObjId": "GlobalObjectId_V1-2-9fc0d4010bbf28b4594072e72b8655ab-4463566038210007903-187109995"
                                 },
                                 "_position": {
                                     "x": 2.34395170211792,
-                                    "y": 0.01896834373474121,
+                                    "y": 0.019304275512695314,
                                     "z": -7.522566318511963
                                 },
                                 "_localRotation": {
@@ -6210,7 +6210,7 @@
             "_modifierTool": {
                 "_command": 0,
                 "_allButSelected": false,
-                "_onlyTheClosest": false
+                "_onlyTheClosest": true
             },
             "_outermostPrefabFilter": true
         }
@@ -6914,7 +6914,7 @@
             "_snappingEnabled": false,
             "_snappingOn": {
                 "x": false,
-                "y": false,
+                "y": true,
                 "z": false
             },
             "_visibleGrid": false,
