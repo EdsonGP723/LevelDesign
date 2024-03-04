@@ -34,9 +34,9 @@ public class AN_Button : MonoBehaviour
     Animator anim;
 
     // NearView()
-    float distance;
-    float angleView;
-    Vector3 direction;
+	public float distance;
+	public float angleView;
+	public Vector3 direction;
 
     void Start()
     {

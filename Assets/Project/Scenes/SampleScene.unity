@@ -2198,6 +2198,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5239272197777735519, guid: e348e7143b6247b488737e4be26fb038, type: 3}
   m_PrefabInstance: {fileID: 153690340}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &158315824 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8547448563377378517, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
+  m_PrefabInstance: {fileID: 589280239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &158315830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158315824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6040fdde11ad4fc4e8c8ddeadc2b2ede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isValve: 0
+  ValveSpeed: 10
+  isLever: 0
+  Locked: 0
+  DoorObject: {fileID: 0}
+  RampObject: {fileID: 0}
+  CanOpen: 1
+  CanClose: 1
+  isOpened: 0
+  xRotation: 1
+  yPosition: 0
+  max: 90
+  min: 0
+  speed: 5
+  distance: 0
+  angleView: 0
+  direction: {x: 0, y: 0, z: 0}
+  leverNum: {fileID: 964257086}
 --- !u!1001 &158582541
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2329,6 +2364,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5239272197777735519, guid: e348e7143b6247b488737e4be26fb038, type: 3}
   m_PrefabInstance: {fileID: 159842734}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &165231639 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6229247520373792897, guid: 3ad7a1cffb2556547a8b7e60fd320431, type: 3}
+  m_PrefabInstance: {fileID: 1739881565}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &168669172
 PrefabInstance:
@@ -3335,14 +3375,57 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5809220570440302438, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809220570440302438, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
       propertyPath: DoorObject
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5809220570440302438, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8547448563377378517, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2130860774}
   m_SourcePrefab: {fileID: 100100000, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
+--- !u!1 &249685167 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8547448563377378517, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
+  m_PrefabInstance: {fileID: 692703049}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &249685173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249685167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6040fdde11ad4fc4e8c8ddeadc2b2ede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isValve: 0
+  ValveSpeed: 10
+  isLever: 0
+  Locked: 0
+  DoorObject: {fileID: 0}
+  RampObject: {fileID: 0}
+  CanOpen: 1
+  CanClose: 1
+  isOpened: 0
+  xRotation: 1
+  yPosition: 0
+  max: 90
+  min: 0
+  speed: 5
+  distance: 0
+  angleView: 0
+  direction: {x: 0, y: 0, z: 0}
+  leverNum: {fileID: 964257086}
 --- !u!1001 &256461550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7048,6 +7131,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5239272197777735519, guid: e348e7143b6247b488737e4be26fb038, type: 3}
   m_PrefabInstance: {fileID: 494948878}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &500396005 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6229247520373792897, guid: 3ad7a1cffb2556547a8b7e60fd320431, type: 3}
+  m_PrefabInstance: {fileID: 1238076321}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &502448774
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8133,13 +8221,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5809220570440302438, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809220570440302438, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
       propertyPath: DoorObject
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5809220570440302438, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8547448563377378517, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 158315830}
   m_SourcePrefab: {fileID: 100100000, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
 --- !u!1001 &592875905
 PrefabInstance:
@@ -10294,13 +10390,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5809220570440302438, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809220570440302438, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
       propertyPath: DoorObject
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5809220570440302438, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8547448563377378517, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 249685173}
   m_SourcePrefab: {fileID: 100100000, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
 --- !u!1001 &699835717
 PrefabInstance:
@@ -14668,6 +14772,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 964257085}
+  - component: {fileID: 964257086}
   m_Layer: 0
   m_Name: Prefab World Builder
   m_TagString: Untagged
@@ -14691,6 +14796,26 @@ Transform:
   - {fileID: 1071299456}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &964257086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964257084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c04927e7910f4a64680be5871845e22c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lever: 0
+  walls:
+  - {fileID: 1912743765}
+  - {fileID: 165231639}
+  - {fileID: 1665504684}
+  - {fileID: 570072361}
+  - {fileID: 500396005}
+  - {fileID: 1467549364}
 --- !u!1001 &966315451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16986,13 +17111,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5809220570440302438, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809220570440302438, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
       propertyPath: DoorObject
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5809220570440302438, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8547448563377378517, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1843620788}
   m_SourcePrefab: {fileID: 100100000, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
 --- !u!1001 &1148871884
 PrefabInstance:
@@ -21253,6 +21386,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5239272197777735519, guid: e348e7143b6247b488737e4be26fb038, type: 3}
   m_PrefabInstance: {fileID: 1466692864}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1467549364 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6229247520373792897, guid: 3ad7a1cffb2556547a8b7e60fd320431, type: 3}
+  m_PrefabInstance: {fileID: 861905746}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1469506834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23479,6 +23617,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5239272197777735519, guid: e348e7143b6247b488737e4be26fb038, type: 3}
   m_PrefabInstance: {fileID: 1657200797}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1665504684 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6229247520373792897, guid: 3ad7a1cffb2556547a8b7e60fd320431, type: 3}
+  m_PrefabInstance: {fileID: 47754035}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1665929530
 PrefabInstance:
@@ -26452,6 +26595,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5239272197777735519, guid: e348e7143b6247b488737e4be26fb038, type: 3}
   m_PrefabInstance: {fileID: 1838764804}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1843620782 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8547448563377378517, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
+  m_PrefabInstance: {fileID: 1142716952}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1843620788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843620782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6040fdde11ad4fc4e8c8ddeadc2b2ede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isValve: 0
+  ValveSpeed: 10
+  isLever: 0
+  Locked: 0
+  DoorObject: {fileID: 0}
+  RampObject: {fileID: 0}
+  CanOpen: 1
+  CanClose: 1
+  isOpened: 0
+  xRotation: 1
+  yPosition: 0
+  max: 90
+  min: 0
+  speed: 5
+  distance: 0
+  angleView: 0
+  direction: {x: 0, y: 0, z: 0}
+  leverNum: {fileID: 964257086}
 --- !u!1001 &1843775795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27358,6 +27536,11 @@ Transform:
   - {fileID: 59260619}
   m_Father: {fileID: 1929305197}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1912743765 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6229247520373792897, guid: 3ad7a1cffb2556547a8b7e60fd320431, type: 3}
+  m_PrefabInstance: {fileID: 861122192}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1914425859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30131,6 +30314,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5239272197777735519, guid: e348e7143b6247b488737e4be26fb038, type: 3}
   m_PrefabInstance: {fileID: 2129749521}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2130860768 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8547448563377378517, guid: a0164d9c476080e449c72cf58e7709ab, type: 3}
+  m_PrefabInstance: {fileID: 248246461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2130860774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130860768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6040fdde11ad4fc4e8c8ddeadc2b2ede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isValve: 0
+  ValveSpeed: 10
+  isLever: 0
+  Locked: 0
+  DoorObject: {fileID: 0}
+  RampObject: {fileID: 0}
+  CanOpen: 1
+  CanClose: 1
+  isOpened: 0
+  xRotation: 1
+  yPosition: 0
+  max: 90
+  min: 0
+  speed: 5
+  distance: 0
+  angleView: 0
+  direction: {x: 0, y: 0, z: 0}
+  leverNum: {fileID: 964257086}
 --- !u!1001 &2140934282
 PrefabInstance:
   m_ObjectHideFlags: 0
