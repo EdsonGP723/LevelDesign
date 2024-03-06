@@ -13217,13 +13217,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 837923180}
   m_SourcePrefab: {fileID: 100100000, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
 --- !u!4 &837923178 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
   m_PrefabInstance: {fileID: 837923177}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &837923179 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+  m_PrefabInstance: {fileID: 837923177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &837923180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837923179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 119f323ea51e51644aac303425640273, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isRedKey: 0
 --- !u!1001 &843886050
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26357,8 +26378,8 @@ MonoBehaviour:
   Remote: 0
   CanOpen: 1
   CanClose: 1
-  RedLocked: 1
-  BlueLocked: 0
+  RedLocked: 0
+  BlueLocked: 1
   isOpened: 0
   OpenSpeed: 3
   rbDoor: {fileID: 0}
